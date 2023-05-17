@@ -1,0 +1,54 @@
+*{
+    font-family: 'Dancing Script', cursive;
+
+}
+.navbar{
+    background-color:rgb(26, 135, 244);
+}
+.nav-item{
+    margin-left: 130px;
+    font-size: 40px;
+}
+h1,p{
+    font-family: 'Dancing Script', cursive;
+}.hd{
+    font-size: 60px;
+}.hp{
+    font-size: 30px;
+}.carousel-caption{
+    text-align: center;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background-color:rgba(137, 43, 226, 0.626);
+    display: flex;
+    flex-direction: column;
+    opacity: 0;
+    transition: o.6s;  
+}.img2{
+    opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}.carousel-caption:hover{
+    opacity: 1;
+}.card-img-top{
+    width: 250px;
+    height: 250px;
+
+}.card-body{
+    background-color: rgb(213, 193, 166);
+
+}.card-body:hover{
+    background-color: rgb(230, 116, 196);}
+.paris{
+    width: 250px;
+height: 250px;
+border-radius: 50px;
+margin: 50px;
+}
+.card-title{
+    font-size: 50px;
+}
